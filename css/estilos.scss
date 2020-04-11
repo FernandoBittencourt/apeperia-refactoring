@@ -3,13 +3,14 @@ $cor-auxiliar: #1e2c35;
 $cor-branca: #fff;
 $raio: 0.3em;
 
-@mixin borda-arredondada {
+@mixin borda-arredondada($raio: 0.3em) {
   -webkit-border-radius: $raio;
   -moz-border-radius: $raio;
   -o-border-radius: $raio;
   -ms-border-radius: $raio;
   border-radius: $raio;
 }
+
 
 @mixin sombra-padrao {
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
@@ -113,7 +114,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include borda-arredondada;
+  @include borda-arredondada(50px);
   @include sombra-padrao;
   font-weight: bold;
 }
@@ -238,7 +239,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
+  @include borda-arredondada();
   @include sombra-padrao;
   margin-left: 2em;
 }
@@ -322,7 +323,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  @include borda-arredondada;
+  @include borda-arredondada();
   border: 2px solid #ccc;
 }
 
@@ -334,7 +335,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
+  @include borda-arredondada();
   @include sombra-padrao;
 }
 
