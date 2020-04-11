@@ -10,6 +10,11 @@
   
   .destaque p {
     width: 30em;
+
+    @media #{mq-mobile} {
+      font-size: 14px;
+		  height: 250px;
+    }
   }
   
   .destaque p:first-child {
