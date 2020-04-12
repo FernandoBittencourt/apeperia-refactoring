@@ -2,13 +2,13 @@
 This project was developed in Alura's SASS course.
 The project consists of refactoring a legacy website to include SASS and training various techniques.
 
-##About the course
+## About the course
 Sass e Compass: Descomplicando o CSS
 About Alura (Portuguese): https://www.alura.com.br/sobre
 About the Course (Portuguese): https://cursos.alura.com.br/course/sass
 
 
-###Modules:
+### Modules:
 * First contact
 * Mixin
 * Nesting
@@ -19,7 +19,7 @@ About the Course (Portuguese): https://cursos.alura.com.br/course/sass
 * Math operations
 * Good share and advice
 
-##How to start
+## How to start
 In terminal:
   ```git clone https://github.com/FernandoBittencourt/apeperia-refactoring.git```
 
