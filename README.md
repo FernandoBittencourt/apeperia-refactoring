@@ -21,8 +21,6 @@ About the Course (Portuguese): https://cursos.alura.com.br/course/sass
 
 ##How to start
 In terminal:
-  ```
-  git clone https://github.com/FernandoBittencourt/apeperia-refactoring.git
-  ``
+  ```git clone https://github.com/FernandoBittencourt/apeperia-refactoring.git```
 
-Open the project source and open the 'index.html'.
+Open the project source and open the **index.html**.
